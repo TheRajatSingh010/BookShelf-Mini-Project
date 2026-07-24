@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books - BookShelf</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Picture1.png" alt="BookShelf Logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="add-book.html">Add Book</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="main-content">
+        <h1 class="page-title">Browse Our Collection</h1>
+
+        
+        <div class="search-container">
+            <input type="text" id="searchBar" class="search-bar" placeholder="🔍 Search by title, author, or genre...">
+        </div>
+
+        
+        <div class="filter-container">
+            <button class="filter-btn active" data-genre="all">All Books</button>
+            <button class="filter-btn" data-genre="Fiction">Fiction</button>
+            <button class="filter-btn" data-genre="Non-Fiction">Non-Fiction</button>
+            <button class="filter-btn" data-genre="Mystery">Mystery</button>
+            <button class="filter-btn" data-genre="Science Fiction">Sci-Fi</button>
+            <button class="filter-btn" data-genre="Romance">Romance</button>
+        </div>
+
+        
+        <div id="booksGrid" class="books-grid">
+            </div>
+    </div>
+
+   
+    <footer>
+        <p>&copy; 2025 BookShelf - Your Online Library. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

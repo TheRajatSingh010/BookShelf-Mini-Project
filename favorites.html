@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites - BookShelf</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Picture1.png" alt="BookShelf Logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="add-book.html">Add Book</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="main-content">
+        <h1 class="page-title">⭐ My Favorite Books</h1>
+
+        
+        <div class="search-container">
+            <input type="text" id="searchBar" class="search-bar" placeholder="🔍 Search your favorites...">
+        </div>
+
+        
+        <div id="favoritesGrid" class="books-grid">
+          </div>
+
+        
+        <div id="emptyState" class="empty-state" style="display: none;">
+            <h3>No favorites yet!</h3>
+            <p>Start adding books to your favorites from the <a href="books.html" style="color: #667eea;">Books page</a></p>
+        </div>
+    </div>
+
+    
+    <footer>
+        <p>&copy; 2025 BookShelf - Your Online Library. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
